@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.ramixin.florafarming.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BlockMixin",
+    "SettingsMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

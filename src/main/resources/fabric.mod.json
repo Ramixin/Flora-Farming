@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "flora_farming",
+  "version": "${version}",
+  "name": "Flora Farming",
+  "description": "A mod that gives flowers a more useful mechanic: farming",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/flora_farming/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.ramixin.florafarming.client.FloraFarmingClient"
+    ],
+    "main": [
+      "net.ramixin.florafarming.FloraFarming"
+    ]
+  },
+  "mixins": [
+    "flora_farming.mixins.json",
+    {
+      "config": "flora_farming.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
