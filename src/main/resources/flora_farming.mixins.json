@@ -4,8 +4,10 @@
   "package": "net.ramixin.florafarming.mixins",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "BeeEntity$PollinationGoalMixin",
     "BlockMixin",
-    "SettingsMixin"
+    "AbstractBlock$SettingsMixin",
+    "ShearsItemMixin"
   ],
   "injectors": {
     "defaultRequire": 1

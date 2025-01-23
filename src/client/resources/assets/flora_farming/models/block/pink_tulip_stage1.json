@@ -1,0 +1,7 @@
+
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "flora_farming:block/pink_tulip_stage1"
+  }
+}

@@ -1,0 +1,7 @@
+
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "flora_farming:block/wither_rose_stage5"
+  }
+}

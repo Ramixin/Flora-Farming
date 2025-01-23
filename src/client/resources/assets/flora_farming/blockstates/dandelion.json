@@ -1,0 +1,23 @@
+
+{
+  "variants": {
+    "age=0": {
+      "model": "flora_farming:block/dandelion_stage0"
+    },
+    "age=1": {
+      "model": "flora_farming:block/dandelion_stage1"
+    },
+    "age=2": {
+      "model": "flora_farming:block/dandelion_stage2"
+    },
+    "age=3": {
+      "model": "flora_farming:block/dandelion_stage3"
+    },
+    "age=4": {
+      "model": "flora_farming:block/dandelion_stage4"
+    },
+    "age=5": {
+      "model": "flora_farming:block/dandelion_stage5"
+    }
+  }
+}

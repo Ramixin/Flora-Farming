@@ -1,0 +1,7 @@
+
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "flora_farming:block/cornflower_stage4"
+  }
+}

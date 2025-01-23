@@ -9,6 +9,7 @@
   "license": "MIT",
   "icon": "assets/flora_farming/icon.png",
   "environment": "*",
+  "accessWidener": "flora_farming.accesswidener",
   "entrypoints": {
     "client": [
       "net.ramixin.florafarming.client.FloraFarmingClient"
@@ -24,6 +25,11 @@
       "environment": "client"
     }
   ],
+  "custom": {
+    "mixson": [
+      "net.ramixin.florafarming.ModMixson"
+    ]
+  },
   "depends": {
     "fabricloader": ">=${loader_version}",
     "fabric": "*",

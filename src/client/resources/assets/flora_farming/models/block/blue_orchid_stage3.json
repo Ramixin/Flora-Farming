@@ -1,0 +1,7 @@
+
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "flora_farming:block/blue_orchid_stage3"
+  }
+}

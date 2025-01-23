@@ -1,4 +1,4 @@
-package net.ramixin.florafarming;
+package net.ramixin.florafarming.ducks;
 
 import net.minecraft.block.Block;
 import net.minecraft.registry.RegistryKey;

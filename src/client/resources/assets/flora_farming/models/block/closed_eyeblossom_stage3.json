@@ -1,0 +1,7 @@
+
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "flora_farming:block/closed_eyeblossom_stage3"
+  }
+}

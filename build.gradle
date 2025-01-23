@@ -13,6 +13,8 @@ base {
 loom {
     splitEnvironmentSourceSets()
 
+    accessWidenerPath = file("src/main/resources/flora_farming.accesswidener")
+
     mods {
         "flora_farming" {
             sourceSet sourceSets.main
@@ -33,7 +35,7 @@ dependencies {
 
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
-    include (modImplementation 'com.github.ramixin:mixson-fabric:v1.0.0')
+    include (modImplementation 'com.github.ramixin:mixson-fabric:v1.0.0.1')
 
     modImplementation "com.ptsmods:devlogin:3.5"
 }
